@@ -1,0 +1,15 @@
+{
+  "name": "tableflip",
+  "version": "1.0.0",
+  "description": "Flipping Tables Since 2017",
+  "main": "handler.js",
+  "dependencies": {
+    "request-promise-native": "^1.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anthony Howell / Maryville Dev Center",
+  "license": "ISC"
+}

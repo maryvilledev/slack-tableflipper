@@ -1,0 +1,18 @@
+
+
+service: tableflip # NOTE: update this with your service name
+
+
+provider:
+  name: aws
+  runtime: nodejs4.3
+  profile: maryville
+
+
+functions:
+  flip:
+    handler: handler.flip
+    events:
+      - http:
+          path: tableflip
+          method: get
